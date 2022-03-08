@@ -1,0 +1,166 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "pib-serie-encadeada",
+      "path": "2021-3-serie-encadeada.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ANO",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano",
+            "description": "Notas de rodapé"
+          },
+          {
+            "name": "TRIMESTRE",
+            "type": "integer",
+            "format": "default",
+            "title": "Trimestre",
+            "description": "nota 2"
+          },
+          {
+            "name": "AGROPECUARIA-TOTAL",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "EXTR_MINERAL",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "TRANSFORMACAO",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "ENERGIA_SANEAMENTO",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "CONSTRUCAO_CIVIL",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "INDUSTRIA-TOTAL",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "COMERCIO",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "TRANSPORTE",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "OUTROS",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "ADMINISTRACAO_PUBLICA",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "SERVICOS-TOTAL",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "VA",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "IMPOSTOS",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "PIB",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "pib-valores-correntes",
+      "path": "2021-3-valores-correntes.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ANO",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "TRIMESTRE",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "AGROPECUARIA",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "INDUSTRIA",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "SERVICOS",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "VA",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "PIB",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      },
+      "title": "Valores correntes do PIB",
+      "description": "Notas...",
+      "format": "csv",
+      "encoding": "utf-8"
+    }
+  ],
+  "keywords": [
+    "PIB",
+    "economia"
+  ],
+  "name": "pib-2021-terceiro",
+  "title": "PIB 3 trimestre",
+  "description": "teste",
+  "contributors": [
+    {
+      "title": "André",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
