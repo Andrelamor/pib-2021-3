@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "pib-serie-encadeada",
-      "path": "2021-3-serie-encadeada.csv",
+      "path": "data/2021-3-serie-encadeada.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -96,7 +96,7 @@
     },
     {
       "name": "pib-valores-correntes",
-      "path": "2021-3-valores-correntes.csv",
+      "path": "data/2021-3-valores-correntes.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
