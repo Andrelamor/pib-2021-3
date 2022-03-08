@@ -5,6 +5,7 @@
       "name": "pib-serie-encadeada",
       "path": "data/2021-3-serie-encadeada.csv",
       "profile": "tabular-data-resource",
+      "title": "Série Encadeada do PIB",
       "schema": {
         "fields": [
           {
@@ -112,12 +113,14 @@
       "name": "pib-valores-correntes",
       "path": "data/2021-3-valores-correntes.csv",
       "profile": "tabular-data-resource",
+      "title":"Valores Correntes do PIB",
       "schema": {
         "fields": [
           {
             "name": "ANO",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "description": "sujeito à revisões periódicas"
           },
           {
             "name": "TRIMESTRE",
@@ -128,31 +131,31 @@
             "name": "AGROPECUARIA",
             "type": "number",
             "format": "default",
-            "groupChar":"."
+            "groupChar": "."
           },
           {
             "name": "INDUSTRIA",
             "type": "number",
             "format": "default",
-            "groupChar":"."
+            "groupChar": "."
           },
           {
             "name": "SERVICOS",
             "type": "number",
             "format": "default",
-            "groupChar":"."
+            "groupChar": "."
           },
           {
             "name": "VA",
             "type": "number",
             "format": "default",
-            "groupChar":"."
+            "groupChar": "."
           },
           {
             "name": "PIB",
             "type": "number",
             "format": "default",
-            "groupChar":"."
+            "groupChar": "."
           }
         ]
       },
@@ -169,6 +172,7 @@
   "name": "pib-2021-terceiro",
   "title": "PIB 3 trimestre",
   "description": "teste",
+  "owner_org": "fundacao-joao-pinheiro-fjp",
   "contributors": [
     {
       "title": "André",
@@ -181,5 +185,12 @@
       "title": "Creative Commons Attribution 4.0",
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
-  ]
+  ],
+  "ckan_hosts": {
+    "https://homologa.cge.mg.gov.br/": {
+      "pib-serie-encadeada": "ed165129-d3f5-4a58-979a-85f5fd7631f0",
+      "pib-valores-correntes": "ffb61af4-b6b2-438f-a7ef-2589fb199464",
+      "datapackage.json": "3f931ef4-bdc7-403d-9a6b-43dae3b23968"
+    }
+  }
 }
