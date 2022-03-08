@@ -23,73 +23,87 @@
           },
           {
             "name": "AGROPECUARIA-TOTAL",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "EXTR_MINERAL",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "TRANSFORMACAO",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "ENERGIA_SANEAMENTO",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "CONSTRUCAO_CIVIL",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "INDUSTRIA-TOTAL",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "COMERCIO",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "TRANSPORTE",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "OUTROS",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "ADMINISTRACAO_PUBLICA",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "SERVICOS-TOTAL",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "VA",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "IMPOSTOS",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "PIB",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           }
         ]
       }
@@ -112,28 +126,33 @@
           },
           {
             "name": "AGROPECUARIA",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "groupChar":"."
           },
           {
             "name": "INDUSTRIA",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "groupChar":"."
           },
           {
             "name": "SERVICOS",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "groupChar":"."
           },
           {
             "name": "VA",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "groupChar":"."
           },
           {
             "name": "PIB",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "groupChar":"."
           }
         ]
       },
